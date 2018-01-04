@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Packages">
+      <UniqueIdentifier>{c328562d-94c8-403c-be2b-e6bb1dbefa60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Packages\SFML">
+      <UniqueIdentifier>{1426c748-c6a1-461c-91fe-4f101d389155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Packages\SFML\Lib">
+      <UniqueIdentifier>{071e41f4-a5c3-49b9-b2e0-1ff464313159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Packages\SFML\Include">
+      <UniqueIdentifier>{a61e8714-e1c6-487f-a1f7-9a2217ef6323}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Settings.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\AlResource.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Clock.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Color.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Config.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Context.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\ContextSettings.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Drawable.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Err.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Event.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\WindowStyle.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Window.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\WindowHandle.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\View.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\TcpListener.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\TcpSocket.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Text.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Texture.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Thread.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\ThreadLocal.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Time.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Touch.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Transform.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Transformable.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\UdpSocket.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Utf.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Vector2.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Vector3.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Vertex.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\VideoMode.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\String.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Sprite.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Main.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Mouse.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\Music.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Mutex.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\NativeActivity.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\NonCopyable.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\OpenGL.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\Packet.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Rect.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Sensor.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Shader.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Shape.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Sleep.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\Socket.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\SocketHandle.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\SocketSelector.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\Sound.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundSource.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\SoundStream.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Lock.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\Export.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Export.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\Export.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Export.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\Export.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\FileInputStream.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Font.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\Ftp.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\GlResource.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Glsl.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Glyph.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\Http.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Graphics\Image.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\System\InputStream.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Network\IpAddress.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Joystick.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Window\Keyboard.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Packages\SFML\include\SFML\Audio\Listener.hpp">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Packages\SFML\include\SFML\System\Thread.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\System\Utf.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\System\Vector2.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\System\Vector3.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\System\String.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\Graphics\Rect.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\include\SFML\Graphics\Glsl.inl">
+      <Filter>Resource Files\Packages\SFML\Include</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-audio-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-audio-s-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-graphics-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-graphics-s-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-network-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-network-s-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-system-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-system-s-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-window-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+    <None Include="Packages\SFML\lib\sfml-window-s-d.pdb">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Packages\SFML\lib\flac.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\freetype.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\jpeg.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\ogg.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\openal32.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-audio.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-audio-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-audio-s.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-audio-s-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-graphics.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-graphics-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-graphics-s.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-graphics-s-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-main.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-main-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-network.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-network-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-network-s.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-network-s-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-system.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-system-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-system-s.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-system-s-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-window.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-window-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-window-s.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\sfml-window-s-d.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\vorbis.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\vorbisenc.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+    <Library Include="Packages\SFML\lib\vorbisfile.lib">
+      <Filter>Resource Files\Packages\SFML\Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

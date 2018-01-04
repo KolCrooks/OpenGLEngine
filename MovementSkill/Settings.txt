@@ -1,0 +1,7 @@
+##Settings##
+##0 = false, 1 = true##
+Window_H = 1280 #window height default
+Window_W = 720 #window width default
+FPS = 0 #if = to 0 then no frame cap
+Fullscreen = 0 #run in fullscreen?
+Debug = 0 #for dev use only
